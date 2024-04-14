@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.task{
+    height: 3.4rem;
+    width: 100%;
+    background-color: #1d1635;
+    background-image: url("./images/t.jpeg");
+    display: flex;
+    display: flexbox;
+    justify-content: space-evenly;
+
+}
+
+.taskbar{
+    width: 16%;
+    height: 3rem;
+    background-image: url("./images/t4.jpeg");
+    border: 2px solid #242425;
+    position: sticky;
+    border-radius: 5px;
+}
+
+.taskbar a{
+    text-decoration: none;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+/* .taskbar :hover{
+  background-color: blue;
+  border-color: black;
+} */
+
+.taskimg{
+    width: 3.3%;
+    background-image: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task .taskbar:hover{
+    border: 2px solid #f85f30; 
+    transition: border 0.3s ease-in; 
+}
+
+.box9{
+    height: 100%;
+    width: 100%;
+    border-radius: 25%;
+    background-image: url("./images/moon.png");
+    background-size: contain;
+    background-repeat: none;
+    /* animation: changeColor 5s infinite;  */
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #000000; /* Red */
+    }
+    50% {
+        background-color: #9f4823; /* Green */
+    }
+    100% {
+        background-color: #5e0064; /* Blue */
+    }
+}
+
+.task a:hover{
+    color: blue;
+}

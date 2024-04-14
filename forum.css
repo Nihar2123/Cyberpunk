@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    background-image: url("./images/b1.jpeg");
+    background-size: cover;
+}
+
+.box0{
+    text-align: center;
+    text-decoration: solid;
+    text-rendering: geometricPrecision;
+    font-size: 40px;
+    font-weight: 650;
+    color: rgba(255, 255, 255, 0.756);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.box1{
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    height:100%;
+    width:70%;
+}
+
+.box3{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid rgba(224, 224, 224, 0.801);
+    border-radius: 5%;
+
+    color: aliceblue;
+}
+
+.head{
+    text-decoration: solid;
+    text-rendering: geometricPrecision;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgba(255, 255, 255, 0.756);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text{
+    text-decoration: solid;
+    text-rendering: geometricPrecision;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.756);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.view{
+    width: 100%;
+    height: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view2{
+    height: 100%;
+    width: 50px;
+
+    margin-right: 30px;
+    text-align: center;
+}
+
+.view2 a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.box5{
+    width: 100%;
+    height:500px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.box6{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box7{
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid rgba(224, 224, 224, 0.801); */
+    border-radius: 5%;
+}
+
+.box8{
+    width: 100%;
+    height: 40%;
+    /* border: 2px solid rgba(224, 224, 224, 0.801); */
+    border-radius: 5%;
+}
+
+.box10{
+    width: 100%;
+    height: 5%;
+    /* border: 2px solid rgba(224, 224, 224, 0.801); */
+    border-radius: 5%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: -50px;
+}
+
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  textarea {
+    /* padding: 10px; */
+    max-width: 100%;
+    /* line-height: 1.5; */
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 1px 1px 1px #999;
+  }
+
+  .txt1{
+    height: 5%;
+    width: 100%;
+    color: rgb(10, 83, 142);
+    font-size: 25px;
+    font-weight: 700;
+  }
